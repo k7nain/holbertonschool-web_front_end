@@ -1,34 +1,46 @@
-html{
+html {
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
 
-body{
-    color: var(--text-color);
+body {
+    color: #161616;
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
 
-a{
-    color: var(--text-color);
+a:link {
+    color: #161616;
     text-decoration: none;
 }
 
-.visually-hidden{
+a:visited {
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: var(--color-light-grey);
+}
+
+.visually-hidden {
     display: none;
 }
 
-.card-category{
+.card-category {
     color: var(--color-primary);
 }
 
-.section-header{
+.section-header {
     text-align: var(--section-header-align);
 }
 
-.section-title{
+.section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
@@ -36,22 +48,22 @@ a{
     color: var(--section-title-color);
 }
 
-.section-tagline{
+.section-tagline {
     color: var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
 
-:root{
-    --color-primary: #D73953;
+:root {
+    --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
-    --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-base: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-family-title: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
     --font-size-large: 1.8rem;
@@ -68,24 +80,12 @@ a{
     --section-title-color: var(--color-black);
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
-}
-
-a[href] {
-    color: var(--text-color);
-    text-decoration: none;
-}
-
-a[href]:visited{
-    font-style: italic;
-}
-
-a[href]:hover{
-    text-decoration: underline ;
-}
-
-a[href]:active{
-    background-color: var(--color-light-grey);
 }
