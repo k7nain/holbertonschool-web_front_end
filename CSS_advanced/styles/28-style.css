@@ -294,16 +294,16 @@ ul.row{
 }
 
 .header{
-    padding: top(--header-padding);
+    padding: var(--header-padding);
 }
 
 .header-logo{
-    position: top(--header-logo-position);
+    position: var(--header-logo-position);
 }
 
 .header-logo a{
-    display: top(--header-logo-link-display);
-    position: top(--header-logo-link-position);
+    display: var(--header-logo-link-display);
+    position: var(--header-logo-link-position);
     top: var(--header-logo-link-top);
     left: var(--header-logo-link-left);
 }
